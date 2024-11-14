@@ -8,7 +8,7 @@ export async function createUser(email: string, name: string) {
     return user;
   } catch (error) {
     console.error("Error creating user:", error);
-    alert('Error auth!')
+    // alert('Error auth!')
     return null;
   }
 }
